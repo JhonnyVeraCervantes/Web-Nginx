@@ -1,0 +1,5 @@
+{"name":"Log","hostname":"a800df7f4fda","pid":1,"level":40,"msg":"Theme's file locales/en.json not found.","time":"2020-07-12T09:06:43.525Z","v":0}
+{"name":"Log","hostname":"a800df7f4fda","pid":1,"level":30,"msg":"Ghost is running in production...","time":"2020-07-12T09:06:49.794Z","v":0}
+{"name":"Log","hostname":"a800df7f4fda","pid":1,"level":30,"msg":"Your blog is now available on https://webvera2.tk/","time":"2020-07-12T09:06:49.795Z","v":0}
+{"name":"Log","hostname":"a800df7f4fda","pid":1,"level":30,"msg":"Ctrl+C to shut down","time":"2020-07-12T09:06:49.795Z","v":0}
+{"name":"Log","hostname":"a800df7f4fda","pid":1,"level":30,"msg":"Ghost boot 31.747s","time":"2020-07-12T09:06:49.801Z","v":0}

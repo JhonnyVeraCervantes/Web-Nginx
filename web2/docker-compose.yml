@@ -1,0 +1,19 @@
+version: "3"
+services:
+    ghost:
+        image: ghost:1-alpine
+        restart: always
+        ports:
+          - 127.0.0.1:8080:2368
+        volumes:
+          - ./blog/data/ghost:/var/lib/ghost/content
+        environment:
+          - url=https://webvera2.tk
+          - VIRTUAL_HOST=webvera2.tk
+          - LETSENCRYPT_HOST=webvera2.tk
+          - LETSENCRYPT_EMAIL=jhony3256@gmail.com
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
