@@ -11,7 +11,7 @@ services:
           - url=https:/" " //COLOCAR DOMINIO
           - VIRTUAL_HOST=" " //COLOCAR DOMINIO
           - LETSENCRYPT_HOST=" " //COLOCAR DOMINIO
-          - LETSENCRYPT_EMAIL=" "//COLOCAR CORREO
+          - LETSENCRYPT_EMAIL=" "//COLOCAR CORREO ELECTRONICO
 
 networks:
   default:
