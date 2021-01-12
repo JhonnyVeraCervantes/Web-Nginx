@@ -8,10 +8,10 @@ services:
         volumes:
           - ./blog/data/ghost:/var/lib/ghost/content
         environment:
-          - url=https:/" "
-          - VIRTUAL_HOST=" "
-          - LETSENCRYPT_HOST=" "
-          - LETSENCRYPT_EMAIL=" "
+          - url=https:/" " //COLOCAR DOMINIO
+          - VIRTUAL_HOST=" " //COLOCAR DOMINIO
+          - LETSENCRYPT_HOST=" " //COLOCAR DOMINIO
+          - LETSENCRYPT_EMAIL=" "//COLOCAR CORREO
 
 networks:
   default:
