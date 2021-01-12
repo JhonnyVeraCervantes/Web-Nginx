@@ -8,10 +8,10 @@ services:
         volumes:
           - ./blog/data/ghost:/var/lib/ghost/content
         environment:
-          - url=https://webvera2.tk
-          - VIRTUAL_HOST=webvera2.tk
-          - LETSENCRYPT_HOST=webvera2.tk
-          - LETSENCRYPT_EMAIL=jhony3256@gmail.com
+          - url=https:/" "
+          - VIRTUAL_HOST=" "
+          - LETSENCRYPT_HOST=" "
+          - LETSENCRYPT_EMAIL=" "
 
 networks:
   default:
